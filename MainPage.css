@@ -3,21 +3,21 @@ body {
       position: relative; 
   }
   #section1 {height:800px; position: relative;}
-  #section2 {padding:50px 0;height:800px;color: #fff; background-color: #333333;height: 100%;background-image: url("home_sec.jpg");background-position: center;}
-  #section3 {padding:50px 0;height:800px;color: #fff; background-color: #333333;height: 100%;background-image: url("home_sec.jpg");background-position: center;max-width:100%;}
-  #section4 {padding:50px 0;height:1200px;color: #fff; background-color: #333333;height: 140%;background-image: url("home_sec.jpg");background-position: center;}
-  #section5 {padding:50px 0;height:800px;color: #fff; background-color: #333333;height: 100%;background-image: url("home_sec.jpg");background-position: center;padding-top:100px;}
+  #section2 {padding:50px 0;height:800px;color: #fff; background-color: #333333;height: 100%;background-image:url(black.jpg);background-position: center;}
+  #section3 {padding:50px 0;height:800px;color: #fff; background-color: #333333;height: 100%;background-image: url("black.jpg");background-position: center;max-width:100%;}
+  #section4 {padding:50px 0;height:1200px;color: #fff; background-color: #333333;height: 140%;background-image: url("black.jpg");background-position: center;}
+  #section5 {padding:50px 0;height:500px;color: #fff; background-color: #333333;height: 100%;background-image: url("black.jpg");background-position: center;padding-top:100px;}
   
   #section6 {padding:50px 0;
   height:500px;
   color: #fff;
   background-color: #333333;
-  height: 80%;
-  background-image: url("home_sec.jpg");
+  height: 100%;
+  background-image: url("black.jpg");
   background-position: center;
   max-width:100%;height:auto;}
   
-  #section7 {padding:50px 0;height:300px;color: #fff; background-color: black;background-image: url("home_sec.jpg");background-position: center;font-family: Verdana;}
+  #section7 {height:200px;color: #fff; background-color: black;background-position: center;font-family: Verdana;padding:50px;}
   
   .scrollDownBtn {
 	position: absolute;
@@ -115,7 +115,7 @@ html,body {
    width:250px;
    
 }
-#my_skills{
+.my_skills{
 	text-align: center;
 }
 .skill{
@@ -131,7 +131,7 @@ html,body {
   text-align: right;
   padding-right: 20px;
   line-height: 20px;
-  color: white;
+  color: #4CAF50;
 }
 #section3 p {
 	margin-bottom: 0;
@@ -468,13 +468,13 @@ blockquote em{
 .contact{
 	margin:auto;
 	max-width: 800px;
-	padding:50px;
+	//padding:50px;
 	text-align:center;
 }
 #copyright{
 	margin:auto;
 	text-align:center;
-	padding:20px 0;
+	//padding:20px 0;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
