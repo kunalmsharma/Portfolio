@@ -2,23 +2,24 @@
 body {
       position: relative; 
   }
-  #section1 {height:800px; position: relative;}
-  #section2 {padding:50px 0;height:800px;color: #fff; background-color: #333333;height: 100%;background-image:url(black.jpg);background-position: center;}
+  #section1 {height:100%; position: relative;}
+  #section2 {height:800px;color: #fff; background-color: #333333;height: 100%;background-image:url(black.jpg);background-position: center;}
   #section3 {padding:50px 0;height:800px;color: #fff; background-color: #333333;height: 100%;background-image: url("black.jpg");background-position: center;max-width:100%;}
   #section4 {padding:50px 0;height:1200px;color: #fff; background-color: #333333;height: 140%;background-image: url("black.jpg");background-position: center;}
   #section5 {padding:50px 0;height:500px;color: #fff; background-color: #333333;height: 100%;background-image: url("black.jpg");background-position: center;padding-top:100px;}
-  
-  #section6 {padding:50px 0;
-  height:500px;
+  #section6 {padding:50px 0;height:1200px;color: #fff; background-color: #333333;height: 100%;background-image: url("black.jpg");background-position: center;}
+  #section7 {padding:100px 0;
+  height:800px;
   color: #fff;
   background-color: #333333;
   height: 100%;
   background-image: url("black.jpg");
   background-position: center;
-  max-width:100%;height:auto;}
+  max-width:100%;}
   
-  #section7 {height:200px;color: #fff; background-color: black;background-position: center;font-family: Verdana;padding:50px;}
+  #section8 {height:200px;color: #fff; background-color: black;background-position: center;font-family: Verdana;padding:50px;}
   
+
   .scrollDownBtn {
 	position: absolute;
     bottom: 60px;
@@ -112,7 +113,7 @@ html,body {
 }
 .profile-pic{
    border-radius: 30%;
-   width:250px;
+   width:300px;
    
 }
 .my_skills{
@@ -160,7 +161,7 @@ html,body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -288,7 +289,7 @@ html,body {
 
 .timeline1 {
     position: relative;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -438,7 +439,7 @@ blockquote{
 
 #recommendation{
 	font-style: italic;
-	padding: 50px;
+	padding: 75px;
 }
 blockquote::before{
   content: "\201C"; /*Unicode for Left Double Quote*/
@@ -510,7 +511,7 @@ blockquote em{
 	  float:left;
 	  position: relative;
   }
-  #section7, #section3, #section5 {
+  #section8, #section3, #section5 {
 		width: 100%;
 	}
 	
@@ -588,6 +589,109 @@ blockquote em{
 	  float:left;
 	  position: relative;
   }
+  #section8{
+	  height:auto;
+	  float:left;
+	  position: relative;
+  }
   
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+
+.text {
+
+    color: white;
+    font-size: 26px;
+   
+}
   
+.image:hover .middle {
+  opacity: 1;
+}
+
+  
+.image:hover #myImg {opacity: 0.3;}
+
+
+/* Center website 
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+*/
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px 16px;
+	padding: 10px; 
+
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content 
+.content {
+    background-color: white;
+    padding: 10px;
+}
+*/
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 20px 20px;
+  background-color: #666;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
 }
